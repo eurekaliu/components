@@ -1,28 +1,45 @@
-.App {
-  text-align: center;
+
+.button_small {
+  height: 31px !important;
+  font-size: 14px !important;
+  padding: 0.25rem 0.5rem !important
+}
+.button_medium {
+  height: 38px !important;
+  font-size: 16px !important;
+  padding: 0.375rem 0.75rem !important
+}
+.button_large {
+  height: 48px !important;
+  font-size: 20px !important;
+  padding: 0.5rem 1rem !important
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.button_default {
+background-color: #F5F5F5 !important; 
+color: #333333 !important;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.button_primary {
+  background-color: #14BDCC !important; 
+  color: white !important;
 }
 
-.App-title {
-  font-size: 1.5em;
+.button_primary:active {
+  color: #09ADBF !important; 
+  background-color: white !important;
+  border-color: #14BDCC !important;
 }
 
-.App-intro {
-  font-size: large;
+.button_success {
+  background-color: #28a745 !important; 
+  color: white !important;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.button_danger{
+  background-color: #f24030 !important; 
+  color: white !important;
+}
+.button_warning{
+  background-color: #fadf32 !important; 
+  color: #333333 !important;
 }
