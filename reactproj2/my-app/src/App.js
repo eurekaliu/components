@@ -141,6 +141,12 @@ class App extends React.Component {
             </ButtonGroup>
             <br />
             <h3>Multiple button 複合功能按鈕</h3>
+            <DatePicker 
+            style={{width: '300px',marginBottom: '10px'}}
+            placeholder="請選擇日期"
+            defaultValue={moment('2018/10/17', dateFormat)} format={dateFormat}
+            onChange={DateonChange}
+            className={'input_default'+' input_large'} />
           </Card>
         </div>
         <div>
